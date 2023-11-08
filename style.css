@@ -150,8 +150,9 @@ ul {
 }
 
 .section#one .container .item .placeholder-section {
+    display: flex;
     height: 200px;
-    width: 100%;    
+    width: 200px;    
     background-color: #f8f8f8;
     border-radius: 16px;
 }
@@ -159,16 +160,20 @@ ul {
 .section#two {
     background-color: #f8f8f8;
     flex-direction: column;
+    gap: 0px;
 }
 
 .quote {
     font-size: 2rem;
     font-style: italic;
     font-weight: 300;
+    width: 70%;
 }
 
 .bold {
     margin-left: auto;
+    margin-top: 8px;
+    padding-right: 32px;
     font-weight: 600;
     font-size: 1.25rem;
 }
